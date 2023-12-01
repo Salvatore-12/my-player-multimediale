@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         //SCANNER//
-        Scanner myscanner = new Scanner(System.in); // Inizializzazione Scanner, oggetto utile per richiedere dati in input da parte dell'utente
+        Scanner myscanner = new Scanner(System.in);
         System.out.println("Per favore, inserisci i tuo dati e premi invio");
         String name = myscanner.nextLine();
         String surname = myscanner.nextLine();

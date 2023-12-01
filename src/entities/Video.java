@@ -10,20 +10,21 @@ public class Video extends ContenutoMultimediale implements VolumeRegolabbile, L
         super(duration, volume);
     }
 
+
+    //TUTTI GLI OVERRIDE//
     @Override
     public void play() {
 
     }
 
-
     @Override
     public void alzaVolume() {
-
+    volume++;
     }
 
     @Override
     public void abbassaVolume() {
-
+    volume--;
     }
 
 
@@ -34,6 +35,5 @@ public class Video extends ContenutoMultimediale implements VolumeRegolabbile, L
 
     @Override
     public void diminuisciluminosità() {
-
     }
 }

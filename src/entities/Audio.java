@@ -21,7 +21,7 @@ public class Audio extends ContenutoMultimediale implements VolumeRegolabbile{
                 '}';
        }
 
-    //METODI//
+    //0VERRIDE//
     @Override
     public void play() {
 
@@ -30,11 +30,11 @@ public class Audio extends ContenutoMultimediale implements VolumeRegolabbile{
 
     @Override
     public void alzaVolume() {
-System.out.println("devi alzare il volume");
+    volume++;
     }
 
     @Override
     public void abbassaVolume() {
-
+    volume--;
     }
 }
