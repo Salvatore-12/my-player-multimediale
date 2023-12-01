@@ -30,11 +30,21 @@ public class Audio extends ContenutoMultimediale implements VolumeRegolabbile{
 
     @Override
     public void alzaVolume() {
-    volume++;
+        if (volume < 10) {
+            volume++;
+            System.out.println("il volume è aumento a" + volume);
+        } else {
+            System.out.println("il volume è al massimo");
+        }
     }
 
     @Override
     public void abbassaVolume() {
-    volume--;
+        if (volume > 0) {
+            volume--;
+            System.out.println("il volume è diminuito a" + volume);
+        } else {
+            System.out.println("il volume e al minimo");
+        }
     }
 }

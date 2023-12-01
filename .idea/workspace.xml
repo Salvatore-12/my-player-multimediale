@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7774fc59-0191-42a9-8b38-47f298cfaf9b" name="Changes" comment="update3">
+    <list default="true" id="7774fc59-0191-42a9-8b38-47f298cfaf9b" name="Changes" comment="update4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Audio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/ContenutoMultimediale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/ContenutoMultimediale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entities/Immagine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Immagine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/LuminositàRegolabbile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/LuminositàRegolabbile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,12 +66,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701439270805</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update4">
+      <option name="closed" value="true" />
+      <created>1701444677531</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701444677531</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update2" />
     <MESSAGE value="update3" />
-    <option name="LAST_COMMIT_MESSAGE" value="update3" />
+    <MESSAGE value="update4" />
+    <option name="LAST_COMMIT_MESSAGE" value="update4" />
   </component>
 </project>

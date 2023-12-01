@@ -4,7 +4,9 @@ import interfaces.LuminositàRegolabbile;
 
 public class Immagine implements LuminositàRegolabbile {
 
-public void show(){}
+public void show(){
+
+}
     //GLI OVERRRIDE DELLA LUMINOSITA//
     @Override
     public void aumentaluminosità() {
