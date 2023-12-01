@@ -1,17 +1,25 @@
+import entities.Audio;
+import entities.ContenutoMultimediale;
+
+import java.util.Scanner;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Invio with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        //SCANNER//
+        Scanner myscanner = new Scanner(System.in); // Inizializzazione Scanner, oggetto utile per richiedere dati in input da parte dell'utente
+        System.out.println("Per favore, inserisci i tuo dati e premi invio");
+        String name = myscanner.nextLine();
+        String surname = myscanner.nextLine();
+        System.out.println("Hai inserito: " + name + " "+surname);
+        myscanner.close();
 
-        // Press Maiusc+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        //CONTENUTO//
+        ContenutoMultimediale musica=new Audio(10 ,40);
+        musica.play();
+          System.out.println(musica);
 
-            // Press Maiusc+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+
     }
 }
